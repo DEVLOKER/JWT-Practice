@@ -1,0 +1,52 @@
+.home-container {
+    /* display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap; */
+}
+
+section {
+    position: relative;
+    padding: 15px;
+}
+
+.section-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+section button {
+    /* position: absolute;
+    top: 40px;
+    right: 15px; */
+    /* float: right; */
+}
+
+pre {
+    outline: 1px solid #ccc;
+    padding: 10px;
+    margin: 15px 0px;
+    /* white-space: nowrap; */
+    overflow-x: auto;
+    /* text-overflow: ellipsis; */
+    /* background: #123; */
+    background: #eceff1;
+    border-radius: 5px;
+}
+.string {
+    color: green;
+}
+.number {
+    color: darkorange;
+}
+.boolean {
+    color: blue;
+}
+.null {
+    color: magenta;
+}
+.key {
+    color: red;
+}

@@ -1,0 +1,32 @@
+.notification-container {
+    position: fixed;
+    top: 10px;
+    /* right: 10px; */
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 5px;
+    padding: 5px 20px;
+    font-size: small;
+    font-family: "Helvetica";
+    backdrop-filter: blur(8px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+    box-shadow: 0px 2px 5px 1px rgba(0, 0, 0, 0.2);
+    z-index: 9999;
+    transition: all 0.5s ease;
+}
+
+.notification-close-button {
+    border: 1px solid black;
+    border-radius: 50%;
+    background: #fff;
+    backdrop-filter: blur(8px);
+    width: 18px;
+    height: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
